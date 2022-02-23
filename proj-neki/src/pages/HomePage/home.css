@@ -1,0 +1,127 @@
+.form-container {
+  width: 100%;
+  background-color: rgb(46, 46, 46);
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
+  padding-bottom: 90px;
+}
+
+.box-form-container {
+  height: 690px;
+  width: 740px;
+  background-color: rgb(24, 24, 24);
+  border-radius: 10px;
+  box-shadow: 5px 10px rgba(56, 56, 56, 0.37);
+  padding-top: 50px;
+}
+
+.primary-form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.primary-form img {
+  height: 8rem;
+  width: 8rem;
+}
+.primary-form input {
+  font-size: 15px;
+  color: #fff;
+  line-height: 1.2;
+  border: none;
+  display: block;
+  width: 12rem;
+  height: 2rem;
+  background-color: rgb(51, 51, 51);
+  padding: 0 5px;
+  border-radius: 5px;
+  margin-left: 15px;
+}
+.titulo-ft {
+  text-align: center;
+  color: #adadadad;
+  cursor: pointer;
+}
+.titulo-ft:hover {
+  color: rgb(185, 185, 185);
+  transition: 0.5s;
+}
+.form-skill {
+  margin-top: 4rem;
+}
+
+.titulo-skill {
+  font-size: 18px;
+  font-weight: 550;
+  color: #adadadad;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.cheks {
+  display: flex;
+  justify-content: space-around;
+}
+.coluna1,
+.coluna2,
+.coluna3,
+.coluna4 {
+  font-size: 18px;
+  color: #adadadad;
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+}
+.skill-add {
+  display: flex;
+  margin-top: 2rem;
+  justify-content: center;
+  margin-bottom: 3.5rem;
+}
+.titulo-area {
+  color: #adadadad;
+  margin-right: 5px;
+}
+.add-skill-input {
+  font-size: 15px;
+  color: #fff;
+  line-height: 1.2;
+  border: none;
+  display: block;
+  width: 25rem;
+  height: 4rem;
+  background-color: rgb(51, 51, 51);
+  padding: 0 5px;
+  border-radius: 5px;
+  margin-left: 15px;
+}
+.adicional-form-container {
+  display: flex;
+  justify-content: center;
+}
+.btn {
+  margin-top: 2.5rem;
+  display: flex;
+  justify-content: center;
+}
+.btn-form {
+  font-size: 15px;
+  border: none;
+  border-radius: 10px;
+  color: #fff;
+  line-height: 1.2;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 8rem;
+  height: 50px;
+  background: #2da54b;
+  background: -webkit-linear-gradient(to left, #4ece42, #589e4f);
+  background: -o-linear-gradient(to left, #4ece42, #589e4f);
+  background: -moz-linear-gradient(to left, #4ece42, #589e4f);
+  background: linear-gradient(to left, #4ece42, #589e4f);
+  text-decoration: none;
+  cursor: pointer;
+}
