@@ -1,6 +1,8 @@
 import React from "react";
 import "./home.css";
 import user from "../../assets/user-icon.png";
+import { AiOutlineExport } from "react-icons/ai";
+import { Link } from "react-router-dom";
 
 export const HomePage = () => {
   const handleSubmit = (e) => {
@@ -10,6 +12,10 @@ export const HomePage = () => {
 
   return (
     <div className="form-container">
+      <Link to="/" className="btn-sair">
+        <AiOutlineExport className="icon-exit" size={40} />
+      </Link>
+
       <div className="box-form-container">
         <form onSubmit={handleSubmit}>
           <div className="primary-form">

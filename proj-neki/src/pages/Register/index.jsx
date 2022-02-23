@@ -6,7 +6,7 @@ import { BsEyeFill, BsEyeSlashFill } from "react-icons/bs";
 
 export const Register = () => {
   const [email, setEmail] = useState("");
-  const [password, setPassword] = useState("");
+  const [senha, setSenha] = useState("");
   const [name, setName] = useState("");
   const [oculto, setOculto] = useState(false);
   const [oculto2, setOculto2] = useState(false);
@@ -48,12 +48,12 @@ export const Register = () => {
 
         <div className="wrap-input">
           <input
-            className={password !== "" ? "has-val input" : "input"}
+            className={senha !== "" ? "has-val input" : "input"}
             type={oculto ? "text" : "password"}
-            value={password}
-            onChange={(e) => setPassword(e.target.value)}
+            value={senha}
+            onChange={(e) => setSenha(e.target.value)}
           />
-          <span className="focus-input" data-placeholder="Password"></span>
+          <span className="focus-input" data-placeholder="Senha"></span>
           <div className="login-eye">
             {oculto ? (
               <BsEyeFill size={25} onClick={handleClick1} />
@@ -64,7 +64,9 @@ export const Register = () => {
         </div>
 
         <div className="container-login-form-btn">
-          <button className="login-form-btn">Cadastrar</button>
+          <button type="submit" className="login-form-btn">
+            Cadastrar
+          </button>
         </div>
 
         <div className="text-center">
